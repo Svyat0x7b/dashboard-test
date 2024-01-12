@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <div class="content">
+            <aside class="sidebar">
+                <div class="logo">
+                    <div class="logo__img">
+                        <img src="./img/setting 1.svg" alt="setting" />
+                    </div>
+                    <h1>Dashboard</h1>
+                    <span class="logo__highlight">v.01</span>
+                </div>
+                <nav class="nav">
+                    <ul class="navlist">
+                        <li class="navlist__item">
+                            <div class="item-info">
+                                <div class="item-img">
+                                    <img src="./img/key-square.svg" alt="key" />
+                                </div>
+                                <h3 class="item-title">Dashboard</h3>
+                            </div>
+                            <div class="item-icon">
+                                <img src="./img/chevron-right 2.svg" alt="chevron" />
+                            </div>
+                        </li>
+                        <li class="navlist__item">
+                            <div class="item-info">
+                                <div class="item-img">
+                                    <img src="./img/3d-square 1.svg" alt="square" />
+                                </div>
+                                <h3 class="item-title">Product</h3>
+                            </div>
+                            <div class="item-icon">
+                                <img src="./img/chevron-right 2.svg" alt="chevron" />
+                            </div>
+                        </li>
+                        <li class="navlist__item active-nav">
+                            <div class="item-info">
+                                <div class="item-img active-nav-img">
+                                    <img src="./img/user-square 1.svg" alt="user" />
+                                </div>
+                                <h3 class="item-title">Customers</h3>
+                            </div>
+                            <div class="item-icon active-nav-img">
+                                <img src="./img/chevron-right 2.svg" alt="chevron" />
+                            </div>
+                        </li>
+                        <li class="navlist__item">
+                            <div class="item-info">
+                                <div class="item-img">
+                                    <img src="./img/wallet-money 2.svg" alt="key" />
+                                </div>
+                                <h3 class="item-title">Income</h3>
+                            </div>
+                            <div class="item-icon">
+                                <img src="./img/chevron-right 2.svg" alt="chevron" />
+                            </div>
+                        </li>
+                        <li class="navlist__item">
+                            <div class="item-info">
+                                <div class="item-img">
+                                    <img src="./img/discount-shape 1.svg" alt="key" />
+                                </div>
+                                <h3 class="item-title">Promote</h3>
+                            </div>
+                            <div class="item-icon">
+                                <img src="./img/chevron-right 2.svg" alt="chevron" />
+                            </div>
+                        </li>
+                        <li class="navlist__item">
+                            <div class="item-info">
+                                <div class="item-img">
+                                    <img src="./img/message-question 1.svg" alt="key" />
+                                </div>
+                                <h3 class="item-title">Help</h3>
+                            </div>
+                            <div class="item-icon">
+                                <img src="./img/chevron-right 2.svg" alt="chevron" />
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <main class="main">
+                <div class="main__header">
+                    <button class="main__header-btn">
+                        <img src="./img/burger.png" alt="burger" />
+                    </button>
+                    <h1 class="main__heading">Hello Evano 👋🏼,</h1>
+                </div>
+                <div class="main__table">
+                    <nav class="table__nav">
+                        <div class="table-info">
+                            <h1 class="table__heading">All customers</h1>
+                            <p class="table__description">Active Members</p>
+                        </div>
+                        <div class="table__search">
+                            <div class="search-img">
+                                <img src="./img/search 1.svg" alt="search glass" />
+                            </div>
+                            <input type="text" name="search" placeholder="Search" />
+                        </div>
+                    </nav>
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="customer-col">Customer Name</th>
+                                    <th>Company</th>
+                                    <th>Phone Number</th>
+                                    <th class="not-aligned-col">Email</th>
+                                    <th class="not-aligned-col">Country</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="not-aligned-col customer-col">Jane Cooper</td>
+                                    <td>Microsoft</td>
+                                    <td>(225) 555-0118</td>
+                                    <td class="not-aligned-col">jane@microsoft.com</td>
+                                    <td class="not-aligned-col">United States</td>
+                                    <td>
+                                        <div class="status status-active">
+                                            <h4>Active</h4>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="not-aligned-col customer-col">Jane Cooper</td>
+                                    <td>Microsoft</td>
+                                    <td>(225) 555-0118</td>
+                                    <td class="not-aligned-col">jane@microsoft.com</td>
+                                    <td class="not-aligned-col">United States</td>
+                                    <td>
+                                        <div class="status status-inactive">
+                                            <h4>Inactive</h4>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="not-aligned-col customer-col">Jane Cooper</td>
+                                    <td>Microsoft</td>
+                                    <td>(225) 555-0118</td>
+                                    <td class="not-aligned-col">jane@microsoft.com</td>
+                                    <td class="not-aligned-col">United States</td>
+                                    <td>
+                                        <div class="status status-inactive">
+                                            <h4>Inactive</h4>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="not-aligned-col customer-col">Jane Cooper</td>
+                                    <td>Microsoft</td>
+                                    <td>(225) 555-0118</td>
+                                    <td class="not-aligned-col">jane@microsoft.com</td>
+                                    <td class="not-aligned-col">United States</td>
+                                    <td>
+                                        <div class="status status-inactive">
+                                            <h4>Inactive</h4>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="not-aligned-col customer-col">Jane Cooper</td>
+                                    <td>Microsoft</td>
+                                    <td>(225) 555-0118</td>
+                                    <td class="not-aligned-col">jane@microsoft.com</td>
+                                    <td class="not-aligned-col">United States</td>
+                                    <td>
+                                        <div class="status status-inactive">
+                                            <h4>Inactive</h4>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-pagination">
+                        <div class="pagination-info">
+                            <p>Showing data 1 to 8 of 256K entries</p>
+                        </div>
+                        <div class="pagination-actions">
+                            <button class="pagination-btn"><</button>
+                            <button class="pagination-btn active-btn">1</button>
+                            <button class="pagination-btn">2</button>
+                            <div>...</div>
+                            <button class="pagination-btn">10</button>
+                            <button class="pagination-btn">></button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
